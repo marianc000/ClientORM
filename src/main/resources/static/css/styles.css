@@ -1,0 +1,101 @@
+* {
+    font-family: Arial;
+    color: darkslategrey;
+}
+
+.row>div {
+    display: inline-block;
+}
+
+.country {
+    width: 6em
+}
+
+.author,.liked  {
+    width: 11em;
+}
+
+
+.post {
+    width: 15em;
+}
+
+.hiddentrue {
+    visibility: hidden;
+}
+
+.l0 {
+    border-top: 1px solid grey;
+}
+
+
+.country.a0.p0.l0 {
+    visibility: visible;
+}
+
+.country,.author,.post {
+    visibility: hidden;
+}
+
+.author.p0.l0 {
+    visibility: visible;
+}
+.post.l0 {
+    visibility:visible;
+}
+.row.header {
+    font-weight: bold;
+}
+
+div#rootDiv {
+    margin-top: 1em;
+    position: relative;
+}
+
+.table {
+    display: inline-block;
+    padding: 0.5em;
+    vertical-align: top;
+    margin-top: 1em;
+    border: 1px solid gray;
+}
+
+.caption {
+    font-size: 1.2em;
+    color: brown;
+}
+
+.row>div {
+    height: 1.2em;
+    vertical-align: middle;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.row.header>div {
+    visibility: visible;
+}
+
+.links a {
+    margin-left: 2em;
+    padding: 0.2em;
+    display: inline-block;
+}
+
+.links {
+    position: fixed;
+    background-color: gainsboro;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    padding: 1em 0;
+}
+
+.wrapper:last-child {
+    margin-bottom: 100vh;
+}
