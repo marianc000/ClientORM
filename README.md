@@ -1,4 +1,4 @@
-# Efficiently loading cyclic associations with JPA
+# Converting SQL query results into objects — backend vs frontend
 
-Loading data with one SQL query and disrupting the circular references to enable serialization as a JSON. It sounds simple, but is tricky.
-Sample code for my post https://marian-caikovski.medium.com/efficiently-loading-cyclic-associations-with-jpa-73488e8730c comparing JPA and JDBC
+Needless entity classes do not help but pollute and complicate Java code. Consider saving your time.
+Sample code for my post https://marian-caikovski.medium.com/converting-sql-query-results-into-objects-backend-vs-frontend-ec51109fe490 about client ORM
